@@ -53,10 +53,12 @@ public class PersonView {
 
 		System.out.println("\n== 신규 회원 추가 ==");
 		
-		sc.nextLine();
+		
 		
 		System.out.print("이름 : ");
 		String name = sc.nextLine();
+		
+		sc.nextLine();
 
 		System.out.print("나이 : ");
 		int age = sc.nextInt();
@@ -127,15 +129,19 @@ public class PersonView {
 		
 	}
 	
-	public void wealthAverage() {
+	public void wealthAverage() {	
+		
 		System.out.println("\n == 회원 평균 재산 조회 ==");
 		
-		double wealthAverage = pc.wealthAverage();
+		double wealthAverage = pc.wealthAverage(); // 메소드 호출, else 안에 넣어도됨
 		
+		int count = pc.getCount(); //회원 수 
+		//if(pc.getCount() == 0)
 		if(wealthAverage == 1) {
 			System.out.println("회원이 없어 평균 재산을 구할 수 없습니다.");
 		}else {
-			System.out.println("평균 재산은 : " + pc.wealthAverage());
+			// System.out.printf("%.2f\n", wealthAverage);
+			System.out.println("총 회원은 " + count + "명이며, 평균 재산은 : " + wealthAverage);
 		}
 		
 		

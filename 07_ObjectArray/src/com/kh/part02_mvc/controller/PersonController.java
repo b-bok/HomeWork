@@ -61,10 +61,8 @@ public class PersonController {
 	
 	public double wealthAverage() {
 		
-		int sumWealth = 0;
-		
-		double wealthAverage = 0.0;
-		
+		double sumWealth = 0;
+
 		for(int i = 0; i<count; i++) {
 			
 			sumWealth += people[i].getWealth();
@@ -73,7 +71,7 @@ public class PersonController {
 			return 1;
 		}else {
 			
-			return wealthAverage = (sumWealth/count);
+			return (sumWealth/count);
 		}
 		
 	}

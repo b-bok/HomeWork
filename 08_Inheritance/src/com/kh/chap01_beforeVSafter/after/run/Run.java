@@ -18,6 +18,17 @@ public class Run {
 		//객체 생성
 		SmartPhone s = new SmartPhone("애플","s-01","아이폰11pro",1500000,"KT");
 		
+		// 다형성 한번 알아보기!!
+		Product p1 = new Desktop();
+		Product p2 = new Tv();
+		Product p3 = new SmartPhone();
+		
+		Product[] arr = new Product[3];
+		arr[1] = new Desktop();
+		arr[2] = new Tv();
+		arr[3] = new SmartPhone();
+		
+	
 		
 		System.out.println(d.information());
 		System.out.println(t.information());

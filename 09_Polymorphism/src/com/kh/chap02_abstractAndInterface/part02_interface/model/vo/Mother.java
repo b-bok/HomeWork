@@ -1,7 +1,8 @@
 package com.kh.chap02_abstractAndInterface.part02_interface.model.vo;
 
 public class Mother extends Person implements Basic {
-
+	// 다이어그램 표기시 비어있는 화살표 = 상속 // 점선 + 비어있는 화살표 = 인터페이스
+	
 	private String babyBirth; // 아이의 탄생정보 : 출산, 입양, 없음
 	
 	public Mother() {}

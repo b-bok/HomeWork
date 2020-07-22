@@ -77,12 +77,9 @@ public class A_StringPoolTest {
 		System.out.println(System.identityHashCode(str2));
 				
 		/*
-		 * 
 		 *  String 클래스 == 불변 클래스
 		 *  --> 계속 값을 변경하는 경우 가비지컬랙터(GC)가 계속 지워줘야만 하는 단점 있음
-		 *  
-		 * 
-		 * 
+		 *  --> 변경이 적고 단지 읽기만 할 경우에는 String 클래스가 용이
 		 */
 			
 		str2 ="hello";

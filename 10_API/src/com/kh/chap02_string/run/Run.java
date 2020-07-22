@@ -17,6 +17,9 @@ public class Run {
 		//C_StringTokenizerTest c = new C_StringTokenizerTest();
 		
 		//c.method2();
+		
+		D_BuilderBufferTest d = new D_BuilderBufferTest();
+		d.method3();
 	}
 
 }

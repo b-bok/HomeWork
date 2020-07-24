@@ -16,13 +16,16 @@ public class Run {
 	// XXXInputStream  : XXX매체로부터 데이터를 입력 받는 통로
 	// XXXOutputStream : XXX매체에 데이터를 출력하는 통로
 	
-	// File InputStream/ File OutputStream : -->외부 매체를 file로 하겠어!
-	// Audio InputStrem/ Audio OutputStream : -->외부매체로 오디오 장치!
-	// Piped InputStrem/ OutPustStream
+	// File InputStream/ OutputStream : --> 외부 매체를 file로 하겠어!
+	// Audio InputStrem/ OutputStream : --> 외부매체로 오디오 장치!
+	// Piped InputStrem/ OutPutStream : --> 외부매체랑 또다른 프로그램 연결!
 		
 		FileByteTest fb = new FileByteTest();
 		
-		fb.fileSave();
+		fb.fileRead();
+		
+		
+		//System.out.println((int)'ㄱ');
 		
 	}
 

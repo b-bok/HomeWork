@@ -96,11 +96,11 @@ public class Run {
 		
 		// 2. add(int index, E e) : 해당 인덱스에 내가 전달한 객체를 추가시켜주는 메소드
 		
-		list.add(1, new Music("진심이 담긴 노래","케이시"));	//**
+		list.add(1, new Music("진심이 담긴 노래","케이시"));
 		
 		System.out.println(list);	
 		
-		// 3. set(int index, E e) : 해당 인덱스의 값을 새로 입력한 객체로 변경	**
+		// 3. set(int index, E e) : 해당 인덱스의 값을 새로 입력한 객체로 변경	
 		
 		list.set(0, new Music("술이 달다","에픽하이"));
 		
@@ -141,7 +141,7 @@ public class Run {
 		
 		
 		// 9. isEmpty() : 컬렉션 비어있는지 물어보는 메소드(비어있으면 true, 아니면 false)	**
-		System.out.println("list가 비어있나요? : " + (list.isEmpty()? "비어있소" : "차있소"));
+		System.out.println("list가 비어있나요? : " + (list.isEmpty() ? "비어있소" : "차있소"));
 		
 		
 		
